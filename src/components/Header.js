@@ -2,7 +2,10 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
 
+//Components
 import TopBar from './TopBar';
+
+//Icons
 import Hamburger from '../assets/icons/hamburger.png';
 
 const Header = () => {

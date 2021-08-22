@@ -23,11 +23,11 @@ const Wrapper = styled.div`
   min-height: 100px;
   ${({bgColor}) => `background-color: ${bgColor};`}
   ${({big}) => big && `
-    min-height: 210px;
+    min-height: 224px;
     flex-direction: column;
     justify-content: center;
   `}
-  margin-bottom: 10px;
+  margin-bottom: 24px;
   img {
     width: 30px;
     ${({big}) => big && `
